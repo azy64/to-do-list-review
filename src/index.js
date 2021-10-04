@@ -14,7 +14,7 @@ const container = document.getElementById('task-container');
 const inputTask = document.getElementById('task');
 const touchEnter = document.querySelector('.enter');
 const btn = document.querySelector('.btn');
-let data = [];
+const data = [];
 if (Update.loadData().length > 0) data = Update.loadData();
 const component = () => {
   const element = document.createElement('p');
